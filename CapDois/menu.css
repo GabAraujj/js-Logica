@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+}
+#menu{
+    background-color:rgb(54, 134, 134);
+    padding:10px; /*aplicar o padding após definir tamanho da fonte*/
+    font-size: 29px;
+    text-align: center;
+    font-family: agency fb;
+}
+.iMenu{ /*usando span*/
+    background-color: rgb(26, 26, 85);
+    border-radius: 3px;
+    padding:5px;
+   
+}
+.iMenu:hover{ /*queria usar */
+    background-color:aqua;
+    border:2px solid blue;
+}
+#iconJS{
+    width:50px;
+}
+a {
+    text-decoration: none;
+}

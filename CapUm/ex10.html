@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo 10</title>
+</head>
+<!--Loja. ler preço de um produto e informe as condições de pagamento. Informe valor para pagamento a vista
+com 10% de desconto e o valor em 3x
+O uso de aspas dentro das variaveis permite fazer operações com a mesma variavel-->
+<body>
+    <script>
+        var produto = Number(prompt("Valor do produto"));
+        var desconto = produto - (produto * 0.10);
+        var parcelado = produto / 3;
+        alert("O produto a vista está com 10% de desconto ficando por R$: "+desconto.toFixed(2));
+        alert("Também há como parcelar em até 3x ficando R$: "+parcelado.toFixed(2));
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 6</title>
+</head>
+<!--Ler valor do jantar e informar taxa do garçom(10%) e o valor total a ser pago-->
+<!--usamos o toFixed para acrescentar casas decimais ao valor
+é preciso conhecer sobre fórmular e porcentagem ao usar programas com resolução de
+problemas matemáticos-->
+<body>
+    <script>
+        var jantar = Number(prompt("Valor do jantar?"));
+        var taxaGarcom = jantar * 0.10;
+        var soma = jantar + taxaGarcom;
+        alert("O valor total da janta foi R$: "+soma.toFixed(2)+ " taxa garçom R$: "+taxaGarcom.toFixed(2));
+    </script>
+</body>
+</html>

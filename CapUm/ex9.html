@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo 9</title>
+</head>
+<!--Pizzaria. ler valor total da conta e quantos clientes vão pagar. Informe o valor a ser pago por cliente
+A combinação Number+prompt permite já receber os dados e depois aplicar sem problemas somas nas variaveis-->
+<body>
+    <script>
+        var total = Number(prompt("Valor total R$: "));
+        var clientes = Number(prompt("Quantos irão pagar?")); 
+        var soma =  total / clientes;
+        alert("Irão pagar cada um R$: "+soma.toFixed(2));
+    </script>
+</body>
+</html>
